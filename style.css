@@ -1,0 +1,35 @@
+.box{
+	height: 300px;
+	background-color: #4e83d8;
+	display: block;
+}
+.colorPlalette{
+	width: 300px;
+	/*border: 1px solid black;*/
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+	margin-bottom: 50px;
+}
+p{
+	font-size: 18px;
+	font-family: 微軟正黑體;
+	color: #fff;
+	line-height: 2;
+	text-align: center;
+	margin: 0;
+}
+.color1{
+	background-color: #ACDBC9;
+}
+.color2{
+	background-color: #DBEBC2;
+}
+.color3{
+	background-color: #FDD2B5;
+}
+.color4{
+	background-color: #F7A7A6;
+}
+.color5{
+	background-color: #F48894;
+	height: 200px;
+}
