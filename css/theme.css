@@ -4,6 +4,11 @@
    * Copyright 2011-2022 Twitter, Inc.
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
+
+.top-title-center{
+  text-align: center !important;
+}
+
 :root {
   --bs-blue: #1717e5;
   --bs-indigo: #6610f2;
@@ -6139,6 +6144,9 @@ textarea.form-control-lg {
 .mt-auto {
   margin-top: auto !important; }
 
+.mt-100 {
+  margin-top: 250px !important; } 
+
 .me-0 {
   margin-right: 0 !important; }
 
@@ -9184,6 +9192,10 @@ img {
 .py-vh-6 {
   padding-top: 16vh;
   padding-bottom: 16vh; }
+
+.py-vh-top {
+  padding-top: 4vh;
+  padding-bottom: 30vh; }  
 
 .transform-scale:hover {
   transform: scale(1.5, 1.5); }
