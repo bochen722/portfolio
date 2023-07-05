@@ -96,7 +96,7 @@
 
   <div class="circularText">
 
-<div class="your-class single-item">
+<div class="your-class center">
     <div class="carousel">
       
       
@@ -121,14 +121,30 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
 
   <script type="text/javascript">
-   $('.single-item').slick({
-    dots: false,
-    infinite: true,
-    speed: 800,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    arrows: true,
-    cssEase: 'linear'
+   $('.center').slick({
+  centerMode: true,
+  centerPadding: '40px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
 });
 
 
